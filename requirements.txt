@@ -1,0 +1,25 @@
+# Pour la détection de visages avec OpenCV
+opencv-python
+opencv-python-headless  # Alternative pour les environnements sans interface graphique
+
+# Pour l'envoi d'e-mails avec l'API Gmail
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+
+# Pour la gestion des e-mails (MIME)
+email-validator
+
+# Pour la gestion des dépendances supplémentaires
+numpy  # OpenCV dépend de NumPy
+
+# Pour le serveur web avec Flask
+flask
+flask-httpauth  # Pour la protection par mot de passe
+
+# Pour la gestion des requêtes HTTP
+werkzeug  # Dépendance de Flask
+
+# Pour installer toutes les dépendances, exécutez :
+# pip install -r requirements.txt
