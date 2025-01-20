@@ -66,8 +66,8 @@ def generate_frames():
 
     # Authentifier Gmail
     service = authenticate_gmail()
-    sender_email = "ilyasghandaoui6@gmail.com"  # Remplacez par votre adresse Gmail
-    recipient_email = "ilyasghandaoui6@gmail.com"  # Remplacez par l'adresse du destinataire
+    sender_email = "youreemail@gmail.com"  # Remplacez par votre adresse Gmail
+    recipient_email = "youreemail@gmail.com"  # Remplacez par l'adresse du destinataire
 
     while True:
         # Lire une frame de la vidéo
