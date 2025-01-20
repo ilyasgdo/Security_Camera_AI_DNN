@@ -14,15 +14,15 @@ web.
 
 ## Prérequis
 
-- Python 3.7 ou supérieur
+- Python 3.9 ou supérieur
 - Compte Google pour l'API Gmail
 - Compte ngrok pour exposer l'application en ligne
 
 ## Installation
 
 1. Clonez le dépôt :
-   ```bash
-git clone https://github.com/votre-utilisateur/votre-depot.git
+```bash
+   git clone https://github.com/ilyasgdo/Security_Camera_AI_DNN
 ```
 2. Installez les dépendances :
    ```bash
@@ -49,7 +49,7 @@ python main.py
    ```bash
 ngrok http 5000
 ```
-3. Accédez à l'URL fournie par ngrok (par exemple, https://cod-patient-currently.ngrok-free.app).
+3. Accédez à l'URL fournie par ngrok (par exemple, https://helloworldddd.ngrok-free.app).
 4. Connectez-vous avec le nom d'utilisateur admin et le mot de passe motdepasse.
 5. Utilisez les boutons "Démarrer la détection" et "Arrêter la détection" pour contrôler la détection.
 
